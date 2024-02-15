@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e5af31a-f592-410b-8b67-f96bf533b0b5" name="Changes" comment="First task">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AvarageThreeNum.java" afterDir="false" />
+    <list default="true" id="9e5af31a-f592-410b-8b67-f96bf533b0b5" name="Changes" comment="task 2">
+      <change afterPath="$PROJECT_DIR$/src/SmallestNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CheckTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AvarageThreeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AvarageThreeNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Java Scratch.Scratch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -66,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707927691836</updated>
-      <workItem from="1707927692989" duration="8256000" />
+      <workItem from="1707927692989" duration="13212000" />
     </task>
     <task id="LOCAL-00001" summary="First task">
       <option name="closed" value="true" />
@@ -84,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707929794503</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="task 2">
+      <option name="closed" value="true" />
+      <created>1707942440067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707942440067</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First task" />
-    <option name="LAST_COMMIT_MESSAGE" value="First task" />
+    <MESSAGE value="task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 2" />
   </component>
 </project>
