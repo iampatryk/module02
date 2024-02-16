@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e5af31a-f592-410b-8b67-f96bf533b0b5" name="Changes" comment="task 2">
-      <change afterPath="$PROJECT_DIR$/src/SmallestNumber.java" afterDir="false" />
+    <list default="true" id="9e5af31a-f592-410b-8b67-f96bf533b0b5" name="Changes" comment="update :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AvarageThreeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AvarageThreeNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SmallestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SmallestNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707927691836</updated>
-      <workItem from="1707927692989" duration="13212000" />
+      <workItem from="1707927692989" duration="18014000" />
     </task>
     <task id="LOCAL-00001" summary="First task">
       <option name="closed" value="true" />
@@ -91,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707942440067</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update :)">
+      <option name="closed" value="true" />
+      <created>1708023690050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708023690050</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First task" />
     <MESSAGE value="task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 2" />
+    <MESSAGE value="update :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update :)" />
   </component>
 </project>

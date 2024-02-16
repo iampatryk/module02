@@ -2,21 +2,32 @@ import java.util.Scanner;
 
 public class SmallestNumber {
     public static void getSmallestNumber() {
+        // pobieranie danych od uzytkownika
         Scanner scanner = new Scanner(System.in);
+        // uzycie tablicy z pieciona miejscami
+        double[] numbers = new double[5];
 
-        System.out.println("Enter first number: ");
-        double number1 = scanner.nextDouble();
+        // petla , jako ze liczymy od 0 to i + 1 zeby zajacz od jedynki
+        for (int i = 0; i < 5; i++) {
+            System.out.print("Enter your number " + (i + 1) + ": ");
+            numbers[i] = scanner.nextDouble();
+        }
+        // napisac kod ktory przeswietli liczby
+        // i wysszuka najmniejsza ...
 
-        System.out.println("Enter second number: ");
-        double number2 = scanner.nextDouble();
+        double smallestNumber = findSmallestNumber(numbers);
+        System.out.println("The smallest number is: " + smallestNumber);
+    }
 
-        System.out.println("Enter third number: ");
-        double number3 = scanner.nextDouble();
-
-        System.out.println("Enter fourth number: ");
-        double number4 = scanner.nextDouble();
-
-        System.out.println("Enter fifth number: ");
-        double number5 = scanner.nextDouble();
+    // znalazlem w necie takie rozwiazanie ale nie do konca
+    // rozumiem jak to sie dzieje
+    public static double findSmallestNumber(double[] numbers) {
+        double smallest = numbers[0];
+        for (double num : numbers) {
+            if (num < smallest) {
+                smallest = num;
+            }
+        }
+        return smallest;
     }
 }

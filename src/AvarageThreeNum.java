@@ -52,7 +52,6 @@ public class AvarageThreeNum {
         }
     }
 
-
     public static double calcAvarage(double number1, double number2, double number3) {
         return (number1 + number2 + number3) / 3.0;
     }
