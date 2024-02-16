@@ -5,7 +5,8 @@ public class Main {
 //        CheckTheNumber.getNumberFromUser();
 //        AvarageThreeNum.getThreeNumbers();
 //        SmallestNumber.getSmallestNumber();
-            PrintNumbers.getNumberFromUser();
+//        PrintNumbers.getNumberFromUser();
+        SumNumbers.getNumberFormUser();
 
     }
 }
