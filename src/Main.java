@@ -4,8 +4,8 @@ public class Main {
         System.out.println("Hello world!" + "\n" + "Zadania: ");
 //        CheckTheNumber.getNumberFromUser();
 //        AvarageThreeNum.getThreeNumbers();
-        SmallestNumber.getSmallestNumber();
-
+//        SmallestNumber.getSmallestNumber();
+            PrintNumbers.getNumberFromUser();
 
     }
 }
