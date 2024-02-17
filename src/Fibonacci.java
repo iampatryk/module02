@@ -20,6 +20,9 @@ public class Fibonacci {
     }
 }
 
+//Obliczamy następną liczbę w ciągu Fibonacciego, dodając firstNumber do secondNumber i przypisując wynik do nextNumber.
+//Przesuwamy wartości: firstNumber staje się secondNumber, a secondNumber staje się nextNumber.
+
 //Ciąg Fibonacciego to ciąg liczb naturalnych, w którym pierwszy wyraz jest
 // równy 0, drugi 1, a każdy kolejny jest sumą dwóch poprzedzających go wyrazów.
 
