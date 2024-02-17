@@ -6,7 +6,8 @@ public class Main {
 //        AvarageThreeNum.getThreeNumbers();
 //        SmallestNumber.getSmallestNumber();
 //        PrintNumbers.getNumberFromUser();
-        SumNumbers.getNumberFormUser();
+//        SumNumbers.getNumberFormUser();
+        Fibonacci.getNumberFromUser();
 
     }
 }
