@@ -8,6 +8,7 @@ public class Main {
 //        PrintNumbers.getNumberFromUser();
 //        SumNumbers.getNumberFormUser();
 //        Fibonacci.getNumberFromUser();
-            Factorial.getFactorialNumber();
+//        Factorial.getFactorialNumber();
+        CheckPalindrom.checker();
     }
 }

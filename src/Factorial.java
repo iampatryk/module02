@@ -27,4 +27,13 @@ public class Factorial {
     }
 
 
+// Przykład: silnia z 5 wynosi: 5! = 5 * 4 * 3 * 2 * 1 = 120.
+// Silnię taką oznaczamy jako 5! (wykrzyknik).
+
+//Napisz funkcję, która jako argument przyjmuje liczbę naturalną
+///większą od zera i zwróć silnię podanej liczby.
+
+//factorial
+
+
 // long - typy danych   8 bajtów - zakres od -2^63 do (2^63)-1 (posiadają przyrostek L , lub l)
