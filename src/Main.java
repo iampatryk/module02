@@ -7,8 +7,10 @@ public class Main {
 //        SmallestNumber.getSmallestNumber();
 //        PrintNumbers.getNumberFromUser();
 //        SumNumbers.getNumberFormUser();
-        Fibonacci.getNumberFromUser();
+//        Fibonacci.getNumberFromUser();
 //        Factorial.getFactorialNumber();
 //        CheckPalindrom.checker();
+//        PrintTriangle.getNumberFromUsers();
+
     }
 }
