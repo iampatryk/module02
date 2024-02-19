@@ -5,7 +5,7 @@ public class Calculator {
     public static void start() {
         System.out.println("Hello in the Calculator!");
         System.out.println("You can choose different operators: +, -, *, / ");
-        System.out.println("If you want to leave, enter: exit .");
+        System.out.println("If you want to leave, enter: exit or quit .");
 
         while(true) {
             int firstNumber = getFirstNumberFromUser();

@@ -30,3 +30,6 @@ public class PrintTriangle {
         }
     }
 }
+
+// ogolnie to zadanie jest dla mnie bardziej trudne do zrozumienia niz np. kalkulator |
+// tak mi sie wydaje ...
