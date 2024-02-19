@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!" + "\n" + "Zadania: ");
+        System.out.println("Hello world!" + "\n" + "Zadania: " + "\n");
 //        CheckTheNumber.getNumberFromUser();
 //        AvarageThreeNum.getThreeNumbers();
 //        SmallestNumber.getSmallestNumber();
@@ -11,6 +11,7 @@ public class Main {
 //        Factorial.getFactorialNumber();
 //        CheckPalindrom.checker();
 //        PrintTriangle.getNumberFromUsers();
+        Calculator.start();
 
     }
 }
