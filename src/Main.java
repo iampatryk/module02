@@ -11,7 +11,8 @@ public class Main {
 //        Factorial.getFactorialNumber();
 //        CheckPalindrom.checker();
 //        PrintTriangle.getNumberFromUsers();
-        Calculator.start();
+//        Calculator.start();
+        MyTaskMultiplicationTable.getNumber();
 
     }
 }
