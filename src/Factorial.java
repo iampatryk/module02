@@ -37,3 +37,5 @@ public class Factorial {
 
 
 // long - typy danych   8 bajtów - zakres od -2^63 do (2^63)-1 (posiadają przyrostek L , lub l)
+
+// dodac drukowanie metody factiorail

@@ -28,3 +28,5 @@ public class Fibonacci {
 
 // Czyli a = 0 b = 1,  0+1=1 | 1+1=2 | 2+1=3 | 3+2=5 | 5+3=8 itd.
 // Tylko jak zeby wszystkie wyswietlaly sie w jednej lini
+
+// zwalidowac !! jak uzytkowak poda 0

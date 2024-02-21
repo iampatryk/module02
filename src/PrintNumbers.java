@@ -24,3 +24,5 @@ public class PrintNumbers {
 // Napisz program, który przyjmie od użytkownika liczbę
 // naturalną większą lub równą zeru, a następnie wydrukuj
 // każdą liczbę (zaczynając od zera) aż do liczby podanej przez użytkownika;
+
+//zmienic nazwy na konkretne zmienic nazwewnictwo

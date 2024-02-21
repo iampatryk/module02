@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class AvarageThreeNum {
 
-    public static void getThreeNumbers() {
+    public static void getThreeNumbersFromUserToCalculateAvarage() {
 
         //pobieram trzy liczby od uzytkownika
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Enter first number: ");
         double number1 = scanner.nextDouble();
         System.out.println("Enter second number: ");

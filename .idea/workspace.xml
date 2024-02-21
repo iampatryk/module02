@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e5af31a-f592-410b-8b67-f96bf533b0b5" name="Changes" comment="update 19/02">
-      <change afterPath="$PROJECT_DIR$/src/MyTaskMultiplicationTable.java" afterDir="false" />
+    <list default="true" id="9e5af31a-f592-410b-8b67-f96bf533b0b5" name="Changes" comment="correction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AvarageThreeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AvarageThreeNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckPalindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckPalindrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckTheNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +82,8 @@
       <updated>1707927691836</updated>
       <workItem from="1707927692989" duration="35887000" />
       <workItem from="1708252877281" duration="202000" />
-      <workItem from="1708253127636" duration="11256000" />
+      <workItem from="1708253127636" duration="15556000" />
+      <workItem from="1708542313366" duration="3906000" />
     </task>
     <task id="LOCAL-00001" summary="First task">
       <option name="closed" value="true" />
@@ -189,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708369109829</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update 20/02">
+      <option name="closed" value="true" />
+      <created>1708447805692</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708447805692</updated>
+    </task>
+    <task id="LOCAL-00016" summary="correction">
+      <option name="closed" value="true" />
+      <created>1708542834449</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708542834449</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +227,8 @@
     <MESSAGE value="update 17/02" />
     <MESSAGE value="update 18/02" />
     <MESSAGE value="update 19/02" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 19/02" />
+    <MESSAGE value="update 20/02" />
+    <MESSAGE value="correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction" />
   </component>
 </project>

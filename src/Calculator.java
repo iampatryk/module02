@@ -12,7 +12,7 @@ public class Calculator {
             int secondNumber =getSecondNumberFromUser();
             String operation = getOperationFromUser();
             int result = 0;
-
+// przefibic na if !
             switch (operation) {
                 case "+":
                     result = add(firstNumber, secondNumber);
@@ -84,7 +84,7 @@ public class Calculator {
 
     private static int multiply(int a, int b) {
 
-        return (int) (a * b);
+        return (int) (a + b) ;
     }
 
 }
