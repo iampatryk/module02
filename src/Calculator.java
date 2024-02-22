@@ -8,33 +8,54 @@ public class Calculator {
         System.out.println("If you want to leave, enter: exit or quit .");
 
         while(true) {
-            int firstNumber = getFirstNumberFromUser();
-            int secondNumber =getSecondNumberFromUser();
+            int firstNumber = getNumberFromUser("Enter your first number: ");
+            int secondNumber = getNumberFromUser("Enter your second number: ");
             String operation = getOperationFromUser();
             int result = 0;
+
 // przefibic na if !
-            switch (operation) {
-                case "+":
-                    result = add(firstNumber, secondNumber);
-                    break;
-                case "-":
-                    result = subtract(firstNumber, secondNumber);
-                    break;
-                case "*":
-                    result = multiply(firstNumber, secondNumber);
-                    break;
-                case "/":
-                    if (isMoreThan0(secondNumber)){
-                        result = divide(firstNumber, secondNumber);
-                    } else {
-                        System.out.println("You can't divide by 0");
-                        continue;
-                    }
-                    break;
-                default:
-                    System.out.println("Error, try again");
-                    continue;
+            if (operation.equals("+")) {
+                result = add(firstNumber, secondNumber);
             }
+            else if (operation.equals("-")) {
+                result = subtract(firstNumber, secondNumber);
+            }
+            else if (operation.equals("*")) {
+                result = multiply(firstNumber, secondNumber);
+            }
+            else if (operation.equals("/")) {
+                result = divide(firstNumber, secondNumber);{
+                    if ( isMoreThan0(secondNumber)) {
+                        result = divide(firstNumber,secondNumber);
+                    } else  {
+                        System.out.println("You can't divide by 0");
+                    }
+                }
+            } else {
+                System.out.println("Error, try again");
+            }
+//            switch (operation) {
+//                case "+":
+//                    result = add(firstNumber, secondNumber);
+//                    break;
+//                case "-":
+//                    result = subtract(firstNumber, secondNumber);
+//                    break;
+//                case "*":
+//                    result = multiply(firstNumber, secondNumber);
+//                    break;
+//                case "/":
+//                    if (isMoreThan0(secondNumber)) {
+//                        result = divide(firstNumber, secondNumber);
+//                    } else {
+//                        System.out.println("You can't divide by 0");
+//                        continue;
+//                    }
+//                    break;
+//                default:
+//                    System.out.println("Error, try again");
+//                    continue;
+//            }
             System.out.println("Result: " + " " + firstNumber + " " + operation + " " + secondNumber + " = " + result);
             System.out.println("Do you want to continue? Type 'yes' to continue. If not, type 'exit', 'quit' or 'no' ."); {
                 Scanner scanner = new Scanner(System.in);
@@ -52,16 +73,21 @@ public class Calculator {
         return scanner.nextLine();
     }
 
-    private static int getFirstNumberFromUser() {
+    private static int getNumberFromUser(String prompt) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your first number: ");
+        System.out.println(prompt);
         return scanner.nextInt();
     }
-    private static int getSecondNumberFromUser() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your second number: ");
-        return scanner.nextInt();
-    }
+//    private static int getFirstNumberFromUser() {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter your first number: ");
+//        return scanner.nextInt();
+//    }
+//    private static int getSecondNumberFromUser() {
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter your second number: ");
+//        return scanner.nextInt();
+//    }
 
     private static boolean isMoreThan0(int number) {
 
@@ -70,21 +96,22 @@ public class Calculator {
 
     private static int add(int a, int b) {
 
-        return (int) (a + b);
+        return a + b;
     }
 
     private static int subtract(int a, int b) {
-        return (int) (a - b);
+
+        return a - b;
     }
 
     private static int divide(int a, int b) {
 
-        return (int) (a / b);
+        return a / b;
     }
 
     private static int multiply(int a, int b) {
 
-        return (int) (a + b) ;
+        return a * b ;
     }
 
 }
