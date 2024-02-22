@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PrintTriangle {
-    public static void getNumberFromUserToPrintTriangle() {
+    public String getNumberFromUserToPrintTriangle() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number to print triangle: ");
         int number = scanner.nextInt();
@@ -12,6 +12,7 @@ public class PrintTriangle {
             System.out.println(star);
             star += "*";
         }
+        return star;
     }
 }
 
