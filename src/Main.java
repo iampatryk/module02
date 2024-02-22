@@ -5,7 +5,8 @@ public class Main {
 
 
             PrintTriangle myPrintTriangle = new PrintTriangle();
-            String triangleNumber = myPrintTriangle.getNumberFromUserToPrintTriangle();
+            myPrintTriangle.getNumberFromUserToPrintTriangle();
+
 
 
 
