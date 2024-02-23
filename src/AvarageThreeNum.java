@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AvarageThreeNum {
 
-    public static void getThreeNumbersFromUserToCalculateAvarage() {
+    public void getThreeNumbersFromUserToCalculateAvarage() {
 
         //pobieram trzy liczby od uzytkownika
         Scanner scanner = new Scanner(System.in);

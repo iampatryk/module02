@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CheckTheNumber {
 
-    public static void getNumberFromUser() {
+    public void getNumberFromUser() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a number: ");

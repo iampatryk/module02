@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SumNumbers {
 
-    public static void getNumberFormUser() {
+    public void getNumberFormUserToCalculateSum() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number: ");
         int number = scanner.nextInt();

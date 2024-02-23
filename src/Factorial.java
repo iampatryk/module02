@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Factorial {
-    public static void getFactorialNumber() {
+    public void getFactorialNumber() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your digit to calculate factorial: ");
         int digit = scanner.nextInt();
@@ -13,7 +13,7 @@ public class Factorial {
             System.out.println("Factorial from digit " + digit + " is " + sum);
         }
     }
-    public static long calculateFactorial(int n) {
+    public long calculateFactorial(int n) {
         if ( n==0 ) {
             return 1;
         } else {

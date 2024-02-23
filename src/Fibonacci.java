@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Fibonacci {
-    public static void getNumberFromUser() {
+    public void getNumberFromUserToPrintFibonacciDigits() {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number: ");

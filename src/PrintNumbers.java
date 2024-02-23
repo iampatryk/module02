@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PrintNumbers {
 
-    public static void getNumberFromUser() {
+    public void getNumberFromUserToPrintAllDigit() {
             Scanner scanner = new Scanner(System.in);
 
             System.out.println("Enter your number: ");

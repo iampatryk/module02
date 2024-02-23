@@ -1,13 +1,36 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!" + "\n" + "Zadania: " + "\n");
+        System.out.println("Hello world!" + "\n" + "Zadanie: " + "\n");
 
-//            PrintTriangle myPrintTriangle = new PrintTriangle();
-//            myPrintTriangle.getNumberFromUserToPrintTriangle();
+//              PrintTriangle myPrintTriangle = new PrintTriangle();
+//              myPrintTriangle.getNumberFromUserToPrintTriangle();
 
-        Calculator myCalculator = new Calculator();
-        myCalculator.startCalc();
+//              Calculator myCalculator = new Calculator();
+//              myCalculator.startCalc();
+
+//              AvarageThreeNum myAvarage = new AvarageThreeNum();
+//              myAvarage.getThreeNumbersFromUserToCalculateAvarage();
+
+//              CheckTheNumber myChecker = new CheckTheNumber();
+//              myChecker.getNumberFromUser();
+
+//              Factorial myFactorial = new Factorial();
+//              myFactorial.getFactorialNumber();
+
+//              Fibonacci myFibonacci = new Fibonacci();
+//              myFibonacci.getNumberFromUserToPrintFibonacciDigits();
+
+//              PrintNumbers myPrinter = new PrintNumbers();
+//              myPrinter.getNumberFromUserToPrintAllDigit();
+
+//              SmallestNumber mySmallNum = new SmallestNumber();
+//              mySmallNum.getSmallestNumber();
+
+//              SumNumbers mySum = new SumNumbers();
+//              mySum.getNumberFormUserToCalculateSum();
+
+
 
 
 
