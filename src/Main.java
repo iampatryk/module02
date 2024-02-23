@@ -3,10 +3,11 @@ public class Main {
 
         System.out.println("Hello world!" + "\n" + "Zadania: " + "\n");
 
+//            PrintTriangle myPrintTriangle = new PrintTriangle();
+//            myPrintTriangle.getNumberFromUserToPrintTriangle();
 
-            PrintTriangle myPrintTriangle = new PrintTriangle();
-            myPrintTriangle.getNumberFromUserToPrintTriangle();
-
+        Calculator myCalculator = new Calculator();
+        myCalculator.startCalc();
 
 
 
