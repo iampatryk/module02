@@ -30,6 +30,8 @@ public class Main {
 //              SumNumbers mySum = new SumNumbers();
 //              mySum.getNumberFormUserToCalculateSum();
 
+        CheckPalindrom myPalindrome = new CheckPalindrom();
+        myPalindrome.palindrome();
 
 
 

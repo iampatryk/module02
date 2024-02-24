@@ -1,22 +1,33 @@
-import java.util.Scanner;
-
 public class CheckPalindrom {
-    public static void checker() {
+    public void palindrome() {
 
-    String checkWord = "kajakasdddad";
+    String checkWord = "kajak";
 
-    int lenght = checkWord.length();
-    checkWord.charAt(0);
+        boolean checkEqual = true;
 
-        for(int i = 0; i < checkWord.length(); i++) {
-            if (checkWord.charAt(i) != checkWord.charAt(lenght - i - 1)) {
-             System.out.println("It is not a palindrome");
-             } else {
-                System.out.println("Is a palindrome");
+        for (int i = 0; i < checkWord.length(); i++) {
+            char sign1 = checkWord.charAt(i);
+            char sign2 = checkWord.charAt(checkWord.length() - 1 - i);
+            System.out.print(sign1 + " " + sign2 + " ");
+
+            if ( sign1 != sign2) {
+                checkEqual = false;
+                // if the loop finds the difference earlier, it will break the loop
+                break;
             }
+        }
+        if (checkEqual) {
+            System.out.println("The words are palindrome.");
+        } else {
+            System.out.println("The words is not palindrome.");
         }
     }
 }
+
+
+
+
+
 
 //String napis = „kajak”;
 //        System.out.println(new StringBuilder(napis).reverse().toString().equals(napis));
