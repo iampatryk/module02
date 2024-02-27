@@ -1,5 +1,5 @@
 public class CheckPalindrom {
-    public void palindrome() {
+    public boolean palindrome() {
 
     String checkWord = "kajak";
 
@@ -8,7 +8,7 @@ public class CheckPalindrom {
         for (int i = 0; i < checkWord.length(); i++) {
             char sign1 = checkWord.charAt(i);
             char sign2 = checkWord.charAt(checkWord.length() - 1 - i);
-            System.out.print(sign1 + " " + sign2 + " ");
+            System.out.println(sign1 + " " + sign2 + " ");
 
             if ( sign1 != sign2) {
                 checkEqual = false;
@@ -17,9 +17,11 @@ public class CheckPalindrom {
             }
         }
         if (checkEqual) {
-            System.out.println("The words are palindrome.");
+            System.out.println("It's palindrome.");
+            return true;
         } else {
-            System.out.println("The words is not palindrome.");
+            System.out.println("Is not palindrome.");
+            return false;
         }
     }
 }
